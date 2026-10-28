@@ -2,6 +2,10 @@
 
 [English](#english) · [中文](#中文)
 
+![/start demo](assets/demo.gif)
+
+<sub>示意動畫：流程與實際操作相同，畫面經過簡化。 · Illustration: same flow as the real run, simplified screen.</sub>
+
 ---
 
 ## 中文
