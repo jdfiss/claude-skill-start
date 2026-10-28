@@ -1,0 +1,22 @@
+{
+  "name": "claude-skill-start",
+  "owner": {
+    "name": "jdfiss"
+  },
+  "metadata": {
+    "description": "Claude Code 開新專案 skill：/start",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "project-starter",
+      "description": "/start：開新專案一條龍。先訪談需求，再建 venv、.env、.gitignore、CLAUDE.md、Obsidian 筆記、git，最後連上 Telegram。",
+      "version": "1.0.0",
+      "author": {
+        "name": "jdfiss"
+      },
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

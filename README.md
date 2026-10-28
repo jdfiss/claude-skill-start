@@ -23,7 +23,22 @@
 
 ### 安裝
 
-把 `skills/start` 資料夾複製到你的 Claude Code skills 目錄：
+**方法一：用 plugin 安裝（推薦）**，在 Claude Code 裡輸入：
+
+```
+/plugin install project-starter --marketplace jdfiss/claude-skill-start
+```
+
+Claude Code 版本較舊、這行不能用的話，改成兩步：
+
+```
+/plugin marketplace add jdfiss/claude-skill-start
+/plugin install project-starter@claude-skill-start
+```
+
+裝好後打 `/start`，選單會出現 `/project-starter:start`。plugin 的指令會帶 plugin 名稱當前綴，這是 Claude Code 的規則。以後用 `/plugin` 就能更新。
+
+**方法二：手動複製**，打 `/start` 就能直接叫出來。把 `skills/start` 資料夾複製到你的 Claude Code skills 目錄：
 
 ```bash
 git clone https://github.com/jdfiss/claude-skill-start.git
@@ -65,7 +80,22 @@ Works on Windows, macOS and Linux. The skill's instructions are written in Tradi
 
 ### Install
 
-Copy the `skills/start` folder into your Claude Code skills directory:
+**Option 1: as a plugin (recommended).** In Claude Code:
+
+```
+/plugin install project-starter --marketplace jdfiss/claude-skill-start
+```
+
+On older Claude Code versions, use two steps instead:
+
+```
+/plugin marketplace add jdfiss/claude-skill-start
+/plugin install project-starter@claude-skill-start
+```
+
+Type `/start` and pick `/project-starter:start` (plugin commands are prefixed with the plugin name). Update later through `/plugin`.
+
+**Option 2: copy it by hand**, which gives you a bare `/start`. Copy the `skills/start` folder into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/jdfiss/claude-skill-start.git

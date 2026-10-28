@@ -1,0 +1,12 @@
+{
+  "name": "project-starter",
+  "version": "1.0.0",
+  "description": "/start：開新專案一條龍。先訪談需求，再建 venv、.env、.gitignore、CLAUDE.md、Obsidian 筆記、git，最後連上 Telegram。",
+  "author": {
+    "name": "jdfiss"
+  },
+  "homepage": "https://github.com/jdfiss/claude-skill-start",
+  "repository": "https://github.com/jdfiss/claude-skill-start",
+  "license": "MIT",
+  "keywords": ["project-setup", "scaffold", "obsidian", "telegram", "python", "venv"]
+}
